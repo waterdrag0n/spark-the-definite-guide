@@ -43,7 +43,7 @@ DataFrame에 SQL을 사용하기 위해
     expr("(((someCol + 5) * 200) - 6) < otherCol")
     ```
 
-![Chapter%205%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%A8%20API%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%89%E1%85%A1%E1%86%AB%2048e3e74548644c15be8530f9f5f7ea89/Untitled.png](Chapter%205%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%A8%20API%20%E1%84%80%E1%85%B5%E1%84%87%E1%85%A9%E1%86%AB%20%E1%84%8B%E1%85%A7%E1%86%AB%E1%84%89%E1%85%A1%E1%86%AB%2048e3e74548644c15be8530f9f5f7ea89/Untitled.png)
+![Untitled](https://user-images.githubusercontent.com/70019911/127879106-b9ede38a-c541-4aaa-a545-aba852ba600d.png)
 
 - SQL과 DataFrame 코드 모두 동일한 논리 트리로 컴파일 되며 성능 또한 동일함
 - printSchema, columns - 전체 컬럼 정보 확인

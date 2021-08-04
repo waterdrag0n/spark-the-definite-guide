@@ -13,7 +13,7 @@
     - 드라이버 프로세스가 할당한 작업 수행.
     - 할당한 코드를 실행하고 보고하는 두 가지 역할.
 
-![2-2](../../image/2-1.png)
+![2-1](https://user-images.githubusercontent.com/70019911/127878905-8fcabd74-8d4c-4c27-810a-7afbfe8dc7bc.png)
 
 ### 스파크 API
 

@@ -58,7 +58,7 @@
 
 1. 코드 작성
 
-![Chapter%204%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%A8%20API%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%2064c48b55c48244a9976b8a9eb126939e/Untitled.png](Chapter%204%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%A8%20API%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%2064c48b55c48244a9976b8a9eb126939e/Untitled.png)
+![4-1](https://user-images.githubusercontent.com/70019911/127878959-b10911c5-9285-4eaa-a35b-0002c7d7f847.png)
 
 - 작성한 코드를 콘솔이나 spark-submit으로 실행
 - catalyst optimizer가 실제 실행 계획 생성
@@ -66,7 +66,7 @@
 
 2. 논리적 실행 계획
 
-![Chapter%204%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%A8%20API%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%2064c48b55c48244a9976b8a9eb126939e/Untitled%201.png](Chapter%204%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%A8%20API%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%2064c48b55c48244a9976b8a9eb126939e/Untitled%201.png)
+![4-2](https://user-images.githubusercontent.com/70019911/127878968-d2fbf797-ba52-4cc6-92ff-92d0371bc338.png)
 
 - 사용자 코드를 논리적 실행 계획으로 변환 (추상적 트랜스포메이션)
 - driver executor의 정보를 고려하지 않음
@@ -77,7 +77,7 @@
 
 3. 물리적 실행 계획
 
-![Chapter%204%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%A8%20API%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%2064c48b55c48244a9976b8a9eb126939e/Untitled%202.png](Chapter%204%20%E1%84%80%E1%85%AE%E1%84%8C%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%A8%20API%20%E1%84%80%E1%85%A2%E1%84%8B%E1%85%AD%2064c48b55c48244a9976b8a9eb126939e/Untitled%202.png)
+![4-3](https://user-images.githubusercontent.com/70019911/127878973-3e2b5ff5-f94c-4180-88b1-2cf852f79521.png)
 
 - 논리적 실행 계획을 클러스터 환경에서 실행하는 방법 정의
 - 최적의 전략 선택 (비용 비교 예시: 조인 연산 수행 비용 비교)
