@@ -114,7 +114,7 @@ ORDER BY CustomerId DESC, stockCode DESC
     - 집계 수준에 따라 필터링하기 위해 집계 수준을 조회
     - grouping_id를 통해 확인할 수 있음
 
-    [그룹화 ID의 의미]
+그룹화 ID의 의미
 |그룹화ID|설명|
 |-|-|
 |3|가장 높은 계층의 집계 결과에서 나타남. 총 수량 제공|
